@@ -848,6 +848,10 @@ margin-bottom:12px ;
   margin-bottom: 10px;
 }
 
+.form .last
+ {margin-bottom: 0;}
+
+
 .form-field .icon {
   position: absolute;
   bottom: 14px;
@@ -893,6 +897,9 @@ letter-spacing: 0.01em;}
     width: 448px;
     height: 120px;
     resize: none;
+    font-size: 12px;
+    line-height: 1.16;
+    letter-spacing: 0.01em;
   }
 
   .policy {
@@ -902,8 +909,8 @@ letter-spacing: 0.01em;}
   justify-content: space-evenly;
   font-size: 14px;
   line-height: 1.71;
-letter-spacing: 0.03em;
-color: var(--secondary-text-color);
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
   }
 
   .policy .text { 
@@ -921,6 +928,17 @@ letter-spacing: 0.03em;
   fill: var(--main-color-project));
   background-origin:border-box;
 }
+
+ .icon-c {
+    display: inline-block;
+    width: 16px;
+    height: 15px;
+    margin-left: 10px;
+    margin-right: 8px;
+    border: 2px solid rgba(33, 33, 33, 1);
+    border-radius: 2px;
+    fill: white;
+  }
 
 .checkbox { 
    position: absolute;
